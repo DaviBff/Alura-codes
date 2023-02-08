@@ -1,0 +1,143 @@
+* {
+	background: #f5f5dc ;
+   font-family: 'Inter', sans-serif;
+   font-weight: 400;
+   font-size: 32px;
+   line-height: 150%;
+
+	
+}
+
+.logoAlura {
+
+   margin-left: 10px;
+   margin-top: 10px;
+   width: 2%;
+}
+
+main {
+   display: flex;
+   margin-bottom: 50px;
+   margin-left: 80px;
+}
+
+.text-area {
+   border: none;
+   color: #0A3871;
+   margin-top: 120px;
+   text-transform: lowercase;
+
+}
+
+::placeholder {color:#0A3871;}
+   .text-area:focus {
+      outline: none;
+   }
+
+.mensagem {
+   position: absolute;
+   background: white;
+  
+   background-repeat: no-repeat;
+   border: none;
+   border-radius:24px ;
+   color: #0A3871;
+   margin-top: 20px;
+   right:  3em;
+}
+
+.informacao {
+   display: inline-block;
+   position: absolute;
+   font-size: 18px;
+   top: 450px;
+   left: 100px;
+}
+
+.botoes {
+
+   margin-top: 4em;
+}
+
+
+.decodificarBTN {
+      position: absolute;
+      left: 100px;
+
+           border: 1px solid #8b80f9;
+            border-radius: 3px;
+            padding: 1rem 2rem;
+            display: inline-block;
+            letter-spacing: -1px;
+            user-select: none;
+            color: #8b80f9;
+            transition: all .195s ease-in-out;
+            cursor: pointer;
+            height: 80px;
+ }
+
+ 
+.decodificarBTN:hover {
+        border: 2px solid #8b80f9;
+        box-shadow: #8b80f9 0px 0px 12px 1px inset,
+         #8b80f9 0px 0px 12px 1px;
+         border-radius: 15px;
+  }
+
+.descodificarBTN {
+   position: absolute;
+   margin-left: 10em;
+   height: 80px;  
+   margin-right: 10px;          
+
+            border: 1px solid #8b80f9;
+            border-radius: 3px;
+            padding: 1rem 2rem;
+            display: inline-block;
+            letter-spacing: -1px;
+            user-select: none;
+            color: #8b80f9;
+            transition: all .195s ease-in-out;
+            cursor: pointer;
+}
+
+ 
+.descodificarBTN:hover {
+    border: 2px solid #8b80f9;
+    box-shadow: #8b80f9 0px 0px 12px 1px inset,
+   #8b80f9 0px 0px 12px 1px;
+    border-radius: 15px;
+ }
+
+.copiarBTN {
+   position: absolute;
+   right: 15em;
+   height: 80px;            
+
+   border: 1px solid #8b80f9;
+            border-radius: 3px;
+            padding: 1rem 2rem;
+            display: inline-block;
+            letter-spacing: -1px;
+            user-select: none;
+            color: #8b80f9;
+            transition: all .195s ease-in-out;
+            cursor: pointer;
+            
+
+}
+
+.copiarBTN:hover {
+   border: 2px solid #8b80f9;
+    box-shadow: #8b80f9 0px 0px 12px 1px inset,
+   #8b80f9 0px 0px 12px 1px;
+    border-radius: 15px;
+
+}
+
+
+
+footer p {
+	color: black;
+	margin-top: 200px;
+}
